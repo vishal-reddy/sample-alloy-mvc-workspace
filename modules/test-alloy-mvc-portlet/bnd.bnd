@@ -1,0 +1,8 @@
+Bundle-Name: test-alloy-mvc-portlet
+Bundle-SymbolicName: com.liferay.testalloymvcportlet
+Bundle-Version: 1.0.0
+Provide-Capability:\
+	osgi.extender;\
+		osgi.extender="jsp.taglib";\
+		uri="http://liferay.com/tld/alloy-permission";\
+		version:Version="${Bundle-Version}"
